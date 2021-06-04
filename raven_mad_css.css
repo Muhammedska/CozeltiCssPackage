@@ -1,0 +1,134 @@
+body {
+    user-select: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 15px;
+    background: #49494941;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background: #888;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+.elit {
+  background-color: rgb(253, 212, 99);
+}
+
+
+.ryhme-git {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    transition: all 1s;
+}
+
+.ryhme-insta {
+    width: 100%;
+    border: none;
+    background-image: linear-gradient(to bottom right, rgb(255, 16, 203), blue);
+    color: whitesmoke;
+    transition: all 1s;
+}
+
+.ryhme-dc {
+    width: 100%;
+    background-color: #7289d9;
+    color: whitesmoke;
+    transition: all 1s;
+}
+
+.ryhme-yt {
+    width: 100%;
+    background-color: #c00000;
+    color: whitesmoke;
+    transition: all 1s;
+}
+
+.ryhme-web {
+    width: 100%;
+    background-color: #630070;
+    color: whitesmoke;
+    transition: all 1s;
+}
+
+.sdnr-styled-btn {
+  position: relative;
+  transition: all 1s;
+}
+
+.sdnr-styled-btn:hover {
+  border-radius: 15px;
+  font-size: 25px;
+  color: rgb(5, 5, 5);
+  transition: all 1s;
+}
+
+.sdnr-bg {
+  background-color: rgba(87, 87, 87, 0.616);
+}
+
+.sdnr-soft {
+  border-radius: 10px;
+}
+
+.sdnr-soft-img {
+  border: 0px solid;
+  width: 80%;
+  transition: linear all 1s;
+}
+
+.sdnr-soft-img:hover {
+  border: 20px solid purple;
+  width: 80%;
+  transition: linear all 1s;
+}
+
+.sdnr-static {
+  position: static;
+}
+
+.sdnr-table-div {
+  background-color: rgba(240, 248, 255, 0.603);
+  color: black;
+}
+
+.sdnr-foot {
+  background-color: rgba(7, 24, 24, 0.479);
+  border-radius: 15px;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  color: white;
+  transition: all 1s;
+}
+
+.sdnr-foot-t {
+  height: 50px;
+  color: white;
+  transition: all 1s;
+}
+
+.sdnr-img-palet {
+  position: relative;
+  width: 80%;
+  transition: all 1s;
+}
+
+.sdnr-img-palet:hover {
+  width: 95%;
+  transition: all 1s;
+}
