@@ -29,19 +29,41 @@ body {
   background-color: rgb(253, 212, 99);
 }
 
+
+.ryhme-git {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    transition: all 1s;
+}
+
 .ryhme-insta {
-  width: 100%;
-  border: none;
-  background-image: linear-gradient(to bottom right, rgb(255, 16, 203), blue);
-  color: whitesmoke;
-  transition: all 1s;
+    width: 100%;
+    border: none;
+    background-image: linear-gradient(to bottom right, rgb(255, 16, 203), blue);
+    color: whitesmoke;
+    transition: all 1s;
 }
 
 .ryhme-dc {
-  width: 100%;
-  background-color: #7289d9;
-  color: whitesmoke;
-  transition: all 1s;
+    width: 100%;
+    background-color: #7289d9;
+    color: whitesmoke;
+    transition: all 1s;
+}
+
+.ryhme-yt {
+    width: 100%;
+    background-color: #c00000;
+    color: whitesmoke;
+    transition: all 1s;
+}
+
+.ryhme-web {
+    width: 100%;
+    background-color: #630070;
+    color: whitesmoke;
+    transition: all 1s;
 }
 
 .sdnr-styled-btn {
