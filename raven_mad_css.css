@@ -1,113 +1,45 @@
 body {
-    user-select: none;
+  user-select: none;
 }
-
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    border-radius: 15px;
-    background: #49494941;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    border-radius: 15px;
-    background: #888;
-
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-
 
 .elit {
   background-color: rgb(253, 212, 99);
 }
 
-
-.ryhme-git {
-    width: 100%;
-    background-color: rgb(0, 0, 0);
-    color: whitesmoke;
-    transition: all 1s;
+.box-dop {
+  background-color: rgba(127, 255, 212, 0.678);
+  border-radius: 5px;
 }
 
-.ryhme-insta {
-    width: 100%;
-    border: none;
-    background-image: linear-gradient(to bottom right, rgb(255, 16, 203), blue);
-    color: whitesmoke;
-    transition: all 1s;
+.font-cozelti-404 {
+  font-family: ocr a;
+  font-size: 72px;
 }
 
-.ryhme-dc {
-    width: 100%;
-    background-color: #7289d9;
-    color: whitesmoke;
-    transition: all 1s;
+.font-cozelti-sorry {
+  font-family: "bauhaus 93";
+  font-size: 24px;
 }
 
-.ryhme-yt {
-    width: 100%;
-    background-color: #c00000;
-    color: whitesmoke;
-    transition: all 1s;
-}
-
-.ryhme-web {
-    width: 100%;
-    background-color: #630070;
-    color: whitesmoke;
-    transition: all 1s;
-}
-
-.sdnr-styled-btn {
-  position: relative;
-  transition: all 1s;
-}
-
-.sdnr-styled-btn:hover {
+.cozelti-gif {
+  background-color: rgba(37, 66, 56, 0.671);
   border-radius: 15px;
-  font-size: 25px;
-  color: rgb(5, 5, 5);
-  transition: all 1s;
+  width: 100%;
 }
 
-.sdnr-bg {
-  background-color: rgba(87, 87, 87, 0.616);
+.cozelti-love {
+  position: relative;
+  padding: 20px;
+  width: 100%;
+  transition: all 2s;
 }
 
-.sdnr-soft {
-  border-radius: 10px;
+.cozelti-love:hover {
+  padding: 10px;
+  transition: all 2s;
 }
 
-.sdnr-soft-img {
-  border: 0px solid;
-  width: 80%;
-  transition: linear all 1s;
-}
-
-.sdnr-soft-img:hover {
-  border: 20px solid purple;
-  width: 80%;
-  transition: linear all 1s;
-}
-
-.sdnr-static {
-  position: static;
-}
-
-.sdnr-table-div {
-  background-color: rgba(240, 248, 255, 0.603);
-  color: black;
-}
-
-.sdnr-foot {
+.cozelti-foot {
   background-color: rgba(7, 24, 24, 0.479);
   border-radius: 15px;
   text-align: center;
@@ -116,19 +48,152 @@ body {
   transition: all 1s;
 }
 
-.sdnr-foot-t {
+.cozelti-foot-t {
   height: 50px;
   color: white;
   transition: all 1s;
 }
 
-.sdnr-img-palet {
+.cozelti-styled-btn {
+  position: relative;
+}
+
+.cozelti-styled-btn:hover {
+  border-radius: 15px;
+  font-size: 25px;
+  color: rgb(255, 238, 0);
+  transition: all 1s;
+}
+
+.cozelti-styled-btn:hover > .me-logo {
+  width: 25px;
+  transition: all 1s;
+}
+
+.cozelti-img-palet {
   position: relative;
   width: 80%;
   transition: all 1s;
 }
 
-.sdnr-img-palet:hover {
+.cozelti-img-palet:hover {
   width: 95%;
   transition: all 1s;
+}
+
+.cozelti-bg {
+  background-color: rgba(87, 87, 87, 0.616);
+}
+
+.cozelti-soft {
+  border-radius: 10px;
+}
+
+.cozelti-soft-img {
+  border: 0px solid;
+  width: 80%;
+  transition: linear all 1s;
+}
+
+.cozelti-soft-img:hover {
+  border: 20px solid purple;
+  width: 80%;
+  transition: linear all 1s;
+}
+
+.cozelti-static {
+  position: static;
+}
+
+.cozelti-table-div {
+  background-color: rgba(240, 248, 255, 0.603);
+  color: black;
+}
+
+/* Other Elements */
+
+.flubg {
+  background-color: rgba(124, 124, 124, 0.637);
+  border-radius: 5px;
+}
+
+.fillex {
+  border-style: solid;
+  border-color: whitesmoke;
+  border-width: 0px;
+  position: relative;
+  width: 80%;
+  transition: all 500ms;
+}
+
+.fillex:hover {
+  border-style: solid;
+  border-color: #000000;
+  border-spacing: 2px;
+  border-width: 25px;
+  transition: all 500ms;
+}
+
+.box-cop-html {
+  position: inherit;
+  border-radius: 15px;
+  padding: 2px 15px 2px 15px;
+  text-align: center;
+  background-color: darkcyan;
+  font-family: monospace;
+  font-size: 20px;
+  transition: all 1s;
+  user-select: none;
+}
+
+.box-cop-html:hover {
+  background-color: rgb(53, 53, 53);
+  color: beige;
+  font-size: 25px;
+  border-radius: 5px;
+  padding: 10px;
+  transition: all 1s;
+}
+
+/* Social */
+
+.ryhme-git {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: whitesmoke;
+  transition: all 1s;
+}
+
+.ryhme-insta {
+  width: 100%;
+  border: none;
+  background-image: linear-gradient(to bottom right, rgb(255, 16, 203), blue);
+  color: whitesmoke;
+  transition: all 1s;
+}
+
+.ryhme-dc {
+  width: 100%;
+  background-color: #7289d9;
+  color: whitesmoke;
+  transition: all 1s;
+}
+
+.ryhme-yt {
+  width: 100%;
+  background-color: #c00000;
+  color: whitesmoke;
+  transition: all 1s;
+}
+
+.ryhme-web {
+  width: 100%;
+  background-color: #630070;
+  color: whitesmoke;
+  transition: all 100ms;
+}
+
+.me-logo {
+  width: 15px;
+  transition: all 100ms;
 }
